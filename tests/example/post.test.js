@@ -1,7 +1,6 @@
 import app from 'src/app'
 import supertest from 'supertest'
 import { setup } from 'src/database'
-// import assert from 'assert'
 
 const request = supertest(app)
 
